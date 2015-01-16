@@ -5,8 +5,8 @@ class JobsController < ApplicationController
   end
 
   def new
-  	# @job = Job.new
-  	@jobs = Job.page(params[:page]).per(25)
+  	 @job = Job.new
+  	# @jobs = Job.page(params[:page]).per(25)
   end
 
   def create
